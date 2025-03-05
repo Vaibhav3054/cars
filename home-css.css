@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    color: #e61c1c;
+    font-size: 50px;
+    margin: 0;
+    align-items: left;
+}
+
+
+.logo-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.logo {
+    width: 70px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.navbar {
+    background-color: transparent;
+    padding: 0;
+    box-shadow: none;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    background-color: #00adb5;
+    color: white;
+}
+    
+
+.welcome-text {
+    text-align: left;
+    
+    background: #fff;
+}
+
+.h2-text{
+    font-size: 40px;
+    font-style: italic;
+}
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    background: #fff;
+}
+
+.welcomeimage img {
+    width: 700px; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.car-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.car-gallery img {
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.car-gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.description {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    width: 80%;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+footer p {
+    margin: 0;
+}
+
+.table-container {
+    display: flex;
+    gap: 20px; /* Adjust spacing between tables */
+    justify-content: center; /* Center tables on the page */
+    flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+}
+
+.table-wrapper {
+    flex: 1; /* Ensures both tables take equal space */
+    min-width: 300px; /* Prevents tables from getting too small */
+}
+
+.sales-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sales-table th, .sales-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.sales-table th {
+    background-color: #f4f4f4;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #00adb5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #00adb5;
+    transform: scale(1.05);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+footer a {
+    color: #ff6347;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ff4500;
+    text-decoration: underline;
+}
+
+#searchBar {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+
+
+

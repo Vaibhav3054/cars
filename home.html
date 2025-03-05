@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars World</title>
+    <link rel="icon" type="image/jpeg" href="images/logo-removebg-preview.png" />
+   <link rel="stylesheet" type="text/css" href="home-css.css">
+</head>
+<body>
+
+    <div class="logo-container">
+        
+        <div class="logo-name">
+            <img src="images/logo-removebg-preview.png" alt="Car Logo" class="logo">
+            <h1>Cars World</h1>
+        </div>
+        
+
+        <nav class="navbar">
+            <ul>
+                
+                <li><a href="about.html">About</a></li>
+                <li><a href="buy.html">Buy</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+
+
+    </div>
+    
+    
+
+<div class="welcome-container">
+
+    <div class="welcome-text">
+        <h2 class="h2-text">Welcome to Cars World!</h2>
+        <p style="font-family: Georgia, 'Times New Roman', Times, serif;">
+            Your ultimate destination for everything about cars! Whether you're a car enthusiast, a first-time buyer, 
+            or just curious about the latest models, we've got you covered. 
+        </p>
+        <button id="explore-button">Explore Now 🚀</button>
+
+    </div>
+
+    <div class="welcomeimage">
+        <img src="images/welcomeimage.jpeg" alt="welcomeimage">
+
+    </div>
+    
+</div>    
+
+<h2 id="car-collection" style="text-align: center;">Explore Our Car Collection</h2>
+
+    <div class="car-gallery">
+        <img src="images/car1.jpeg" alt="Car 1" title="This is a hover message!">
+        <img src="images/car2.jpeg" alt="Car 2">
+        <img src="images/car3.jpeg" alt="Car 3">
+        <img src="images/car4.jpeg" alt="Car 4">
+        <img src="images/car5.jpeg" alt="Car 5">
+        <img src="images/car6.jpeg" alt="Car 6">
+    </div>
+
+    <div class="description">
+        <h2>About Cars</h2>
+        <p>Cars have revolutionized transportation, providing comfort, speed, and convenience. With advancements in technology, modern cars offer smart features, eco-friendly alternatives, and cutting-edge safety systems.</p>
+        <p>There are various types of cars, including hatchbacks, sedans, SUVs, sports cars, and luxury vehicles, each catering to different needs and preferences. In terms of fuel, cars can be categorized into petrol, diesel, hybrid, and electric vehicles (EVs). While petrol and diesel cars have been the traditional choices, hybrids offer a balance of fuel efficiency and power, and EVs are gaining popularity due to their environmental benefits and cost savings.</p>
+        
+        <div class="table-container">
+            <div class="table-wrapper">
+                <h3>Car Sales in India by Fuel Type (2023)</h3>
+                <table class="sales-table">
+                    <thead>
+                        <tr>
+                            <th>Fuel Type</th>
+                            <th>Market Share</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Petrol</td>
+                            <td>65%</td>
+                        </tr>
+                        <tr>
+                            <td>Diesel</td>
+                            <td>30%</td>
+                        </tr>
+                        <tr>
+                            <td>Electric/Hybrid</td>
+                            <td>4.3%</td>
+                        </tr>
+                        <tr>
+                            <td>CNG</td>
+                            <td>0.7%</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Source: <a href="https://www.statista.com/statistics/1234230/india-share-of-car-sales-by-fuel-type/">Statista</a></p>
+            </div>
+        
+            <div class="table-wrapper">
+                <h3>Car Sales in India by Fuel Type (H1 2024)</h3>
+                <table class="sales-table">
+                    <thead>
+                        <tr>
+                            <th>Fuel Type</th>
+                            <th>Market Share</th>
+                            <th>Growth Rate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Petrol</td>
+                            <td>61%</td>
+                            <td>-2%</td>
+                        </tr>
+                        <tr>
+                            <td>Diesel</td>
+                            <td>17.6%</td>
+                            <td>8%</td>
+                        </tr>
+                        <tr>
+                            <td>CNG</td>
+                            <td>16.4%</td>
+                            <td>59%</td>
+                        </tr>
+                        <tr>
+                            <td>Electric/Hybrid</td>
+                            <td>5%</td>
+                            <td>Data not available</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Source: <a href="https://www.autopunditz.com/post/indian-passenger-vehicle-market-fuel-mix-analysis-h1-2024">Auto Punditz</a></p>
+            </div>
+        </div>
+        
+    
+
+    <footer>
+        <p>&copy; <a href="https://www.linkedin.com/in/vabacharya/">For more projects like this follow me on linkedin</a></p>
+    </footer>
+
+    <script>
+        document.querySelector("button").addEventListener("click", function() {
+            let target = document.getElementById("car-collection"); 
+            let offset = 130; // Adjust this based on your header height
+            let targetPosition = target.getBoundingClientRect().top + window.scrollY - offset;
+            window.scrollTo({ top: targetPosition, behavior: "smooth" });
+        });
+    </script>
+    
+    
+</body>
+</html>
